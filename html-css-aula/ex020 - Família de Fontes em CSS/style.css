@@ -1,0 +1,39 @@
+body{
+    font-family: 'Work Sans',Arial, Helvetica, sans-serif;
+    /*
+    Medidas Absolutas
+    cm, mm, in(polegadas), px, pt, pc
+Usar o PX(pixel)
+    Medidas Relativas
+    em(principal), ex, rem, vw, vh, %
+Usar EM
+16px geralmente = 1em
+    */
+    font-size: 1em;
+    /*font-weight: lighter normal bold bolder ou 100-900
+    font-style: italic
+    text-decoration: underline = Sublinhado
+
+    Ordem:
+
+    - font-style -> font-weight -> font-size -> font-family
+
+    */
+
+    /* weight = peso
+       width = largura
+       height = Altura */
+}
+
+h1{
+    font: italic bolder 3em 'Work Sans' , sans-serif;
+}
+h2{
+    font: bold 2em 'Work Sans'
+}
+
+
+/*h1, h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+*/
